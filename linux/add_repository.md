@@ -10,4 +10,5 @@
 9. Add the repositories to `dnf` 
     `dnf config-manager --add-repos=///repos/BaseOS`
     `dnf config-manager --add-repos=///repos/AppStream`
-10. 
+10. Add the following line to `/etc/yum.repos.d/repos_AppStream.repo` and `/etc/yum.repos.d/repos_BaseOS.repo`
+    `gpgcheck=0`
