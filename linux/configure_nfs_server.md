@@ -10,6 +10,7 @@
 **Enable nfs service on the firewall**      
 `firewall-cmd --add-service=nfs --permanent`        
 `firewall-cmd --add-service=rpc-bind --permanent`       
-`firewall-cmd --add-service=mountd --permanent`     
+`firewall-cmd --add-service=mountd --permanent`
+`firewall-cmd --reload`     
 
 
