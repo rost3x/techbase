@@ -1,5 +1,5 @@
 #### A critical server/service is down and you need to fix it. What are
- the first steps you need to take?	
+#### the first steps you need to take?	
 
 1. Recognize the issue and gather all the posible data.		
 2. Create an action plan.	
