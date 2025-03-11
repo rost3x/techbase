@@ -32,5 +32,22 @@ service or the documentation files.
 ### Logs	
 
 The default logs location on the servers is in		
-`/var/logs/`
+`/var/logs/`	
 
+### TCPDUMP	
+
+Tcpdump allows you to capture and analyze network traffic on your
+system. Some system may have it pre-installed however, on RHEL it can be
+installed via	
+	
+```sh
+sudo dnf install tcpdump
+```	
+
+Tcpdump needs elevated permissions, therefore, `sudo` must be used.	
+
+To display network interfaces on the system you can type	
+
+```sh
+sudo tcpdump -D
+```
